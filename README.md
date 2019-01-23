@@ -4,7 +4,7 @@
 
 ## 📝 Usage
 ```js
-const animals = require('./index.js'); //the core of this package
+const animals = require('random-animals-api'); 
 animals.cat()
     .then(url => console.log(url))
     .catch((error) => console.error(error));
