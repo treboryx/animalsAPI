@@ -1,6 +1,6 @@
 {
   "name": "random-animals-api",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "All-in-one API for random animal images.",
   "main": "index.js",
   "scripts": {
