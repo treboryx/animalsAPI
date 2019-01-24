@@ -30,9 +30,7 @@ animals.cat()
 
 ## 📦 Installation
 
-1. npm i animalsapi
-2. cd animalsapi
-3. npm install
+1. npm i random-animals-api
 
 ## ⭐️ APIs used
 
