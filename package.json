@@ -2,14 +2,18 @@
   "name": "random-animals-api",
   "version": "1.2.0",
   "description": "All-in-one API for random animal images.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx tsup ./src/index.ts --minify",
+    "test": "nyc ava"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/treboryx/animalsAPI.git"
   },
+  "files": [
+    "dist"
+  ],
   "keywords": [
     "random-meow",
     "dog",
@@ -27,6 +31,21 @@
   },
   "homepage": "https://github.com/treboryx/animalsAPI#readme",
   "dependencies": {
-    "node-superfetch": "^0.1.9"
+    "node-superfetch": "^0.1.10"
+  },
+  "ava": {
+    "extensions": [
+      "ts"
+    ],
+    "require": [
+      "ts-node/register"
+    ]
+  },
+  "devDependencies": {
+    "ava": "^3.14.0",
+    "import-to-array": "^1.0.0",
+    "nyc": "^15.1.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
   }
 }
