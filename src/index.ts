@@ -17,14 +17,6 @@ export const cat = async () => {
     return getRequest('https://aws.random.cat/meow').then(res => res.body.file);
 };
 
-// /**
-//  * Get a random image of a bird!
-//  * 
-//  */
-// export const bird = async () => {
-//     return getRequest('http://random.birb.pw/tweet/').then(res => `http://random.birb.pw/img/${res.text}`);
-// };
-
 /**
  * Get a random image of a dog!
  * 
@@ -57,14 +49,6 @@ export const fox = async () => {
     return getRequest('https://randomfox.ca/floof/').then(res => res.body.image);
 };
 
-// /**
-//  * Get a random image of a lion!
-//  * 
-//  */
-// export const lion = async () => {
-//     return getRequest('https://animals.anidiots.guide/lion').then(res => res.body.link);
-// };
-
 /**
  * Get a random image of a lizard!
  * 
@@ -81,30 +65,6 @@ export const owl = async () => {
     return getRequest('http://pics.floofybot.moe/owl').then(res => res.body.image);
 };
 
-// /**
-//  * Get a random image of a panda!
-//  * 
-//  */
-// export const panda = async () => {
-//     return getRequest('https://animals.anidiots.guide/panda').then(res => res.body.link);
-// };
-
-// /**
-//  * Get a random image of a redpanda!
-//  * 
-//  */
-// export const redPanda = async () => {
-//     return getRequest('https://animals.anidiots.guide/red_panda').then(res => res.body.link);
-// };
-
-// /**
-//  * Get a random image of a penguin!
-//  * 
-//  */
-// export const penguin = async () => {
-//     return getRequest('https://animals.anidiots.guide/penguin').then(res => res.body.link);
-// };
-
 /**
  * Get a random image of a shiba!
  * 
@@ -112,11 +72,3 @@ export const owl = async () => {
 export const shiba = async () => {
     return getRequest('http://shibe.online/api/shibes').then(res => res.body.link);
 };
-
-// /**
-//  * Get a random image of a tiger!
-//  * 
-//  */
-// export const tiger = async () => {
-//     return getRequest('https://animals.anidiots.guide/tiger').then(res => res.body.link);
-// };
