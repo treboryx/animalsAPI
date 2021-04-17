@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/treboryx/animalsAPI#readme",
   "dependencies": {
-    "node-superfetch": "^0.1.10"
+    "node-superfetch": "^0.1.11"
   },
   "ava": {
     "extensions": [
