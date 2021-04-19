@@ -1,11 +1,12 @@
 {
   "name": "random-animals-api",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "All-in-one API for random animal images.",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
   "scripts": {
     "build": "npx tsup ./src/index.ts --minify",
-    "test": "nyc ava"
+    "test": "nyc ava",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
