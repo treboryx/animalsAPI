@@ -19,7 +19,7 @@ animals.cat()
 - [x] fox
 - [x] lizard
 - [x] shiba
-- [x] kala
+- [x] koala
 - [x] panda
 
 ## 📦 Installation
