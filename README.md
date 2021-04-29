@@ -13,20 +13,14 @@ animals.cat()
 ## 🐈 List of animal names
 
 - [x] cat
-- [x] fox
-- [x] bird
 - [x] dog
 - [x] bunny
-- [x] lizard
-- [x] owl
-- [x] tiger
-- [x] shiba
-- [x] lion
 - [x] duck
+- [x] fox
+- [x] lizard
+- [x] shiba
+- [x] koala
 - [x] panda
-- [x] redPanda
-- [x] penguin
-
 
 ## 📦 Installation
 
@@ -35,11 +29,10 @@ animals.cat()
 ## ⭐️ APIs used
 
 - [x] random.cat
-- [x] randomfox.ca
-- [x] birb.pw
 - [x] dog.ceo
 - [x] bunnies.io
 - [x] random-d.uk
-- [x] anidiots.guide
-- [x] floofybot.moe
+- [x] randomfox.ca
+- [x] nekos.life
 - [x] shibe.online
+- [x] some-random-api.ml

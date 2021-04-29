@@ -58,17 +58,25 @@ export const lizard = async () => {
 };
 
 /**
- * Get a random image of a owl!
- * 
- */
-export const owl = async () => {
-    return getRequest('http://pics.floofybot.moe/owl').then(res => res.body.image);
-};
-
-/**
  * Get a random image of a shiba!
  * 
  */
 export const shiba = async () => {
     return getRequest('http://shibe.online/api/shibes').then(res => res.body.link);
+};
+
+/**
+ * Get a random image of a koala!
+ * 
+ */
+ export const koala = async () => {
+    return getRequest('https://some-random-api.ml/img/koala').then(res => res.body.link);
+};
+
+/**
+ * Get a random image of a panda!
+ * 
+ */
+ export const panda = async () => {
+    return getRequest('https://some-random-api.ml/img/panda').then(res => res.body.link);
 };

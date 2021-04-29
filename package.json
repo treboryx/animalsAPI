@@ -1,6 +1,6 @@
 {
   "name": "random-animals-api",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "All-in-one API for random animal images.",
   "main": "dist/index.js",
   "scripts": {
@@ -20,8 +20,8 @@
     "dog",
     "cat",
     "bird",
-    "tiger",
     "panda",
+    "koala",
     "animal api",
     "random animal image api"
   ],
