@@ -21,6 +21,7 @@ animals.cat()
 - [x] shiba
 - [x] koala
 - [x] panda
+- [x] bird
 
 ## 📦 Installation
 
