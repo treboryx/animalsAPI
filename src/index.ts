@@ -101,7 +101,7 @@ export const panda = async () => {
  * Get a random image of a Birb!
  *
  */
-export const panda = async () => {
+export const bird = async () => {
   return getRequest("https://some-random-api.ml/img/birb").then(
     (res) => res.body.link
   );
