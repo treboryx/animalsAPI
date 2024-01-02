@@ -14,7 +14,7 @@ const getRequest = async (endpoint: string) => {
  *
  */
 export const cat = async () => {
-  return getRequest("https://aws.random.cat/meow").then((res) => res.body.file);
+	return "https://cataas.com/cat";
 };
 
 /**
